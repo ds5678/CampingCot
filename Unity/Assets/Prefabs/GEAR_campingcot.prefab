@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1261432860291442}
+  m_IsPrefabAsset: 1
+--- !u!1 &1204720515601236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4420096482769488}
+  - component: {fileID: 33114611512241668}
+  - component: {fileID: 23233569862079170}
+  - component: {fileID: 64432870208095882}
+  m_Layer: 0
+  m_Name: Campingcot_packed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1261432860291442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4972305871004702}
+  - component: {fileID: 114811379346791594}
+  - component: {fileID: 114552175528834078}
+  - component: {fileID: 114074135970336196}
+  m_Layer: 0
+  m_Name: GEAR_campingcot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1559997188579376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4629659303184698}
+  - component: {fileID: 33361489799324252}
+  - component: {fileID: 23742411654257802}
+  - component: {fileID: 64360294977237066}
+  m_Layer: 0
+  m_Name: Campingcot_used
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4420096482769488
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204720515601236}
+  m_LocalRotation: {x: 0.50000006, y: 0.5000001, z: -0.5, w: -0.49999997}
+  m_LocalPosition: {x: 0.07991393, y: 0, z: 0}
+  m_LocalScale: {x: 0.011700294, y: 0.011700294, z: 0.011700294}
+  m_Children: []
+  m_Father: {fileID: 4972305871004702}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4629659303184698
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559997188579376}
+  m_LocalRotation: {x: -4.293576e-16, y: -4.0448714e-10, z: 0.0030104988, w: 0.99999547}
+  m_LocalPosition: {x: -0.002, y: 0.315, z: 0}
+  m_LocalScale: {x: 0.011700289, y: 0.011700289, z: 0.01170029}
+  m_Children: []
+  m_Father: {fileID: 4972305871004702}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4972305871004702
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1261432860291442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4420096482769488}
+  - {fileID: 4629659303184698}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23233569862079170
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204720515601236}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 32d6e3b140187e54e950f5541a88c73e, type: 2}
+  - {fileID: 2100000, guid: 9d4a30cca4787b64ba6be05b7a61b1c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23742411654257802
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559997188579376}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 9d4a30cca4787b64ba6be05b7a61b1c2, type: 2}
+  - {fileID: 2100000, guid: 32d6e3b140187e54e950f5541a88c73e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33114611512241668
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204720515601236}
+  m_Mesh: {fileID: 4300004, guid: f05a45e7cb6bbff46b07e252397ecd10, type: 3}
+--- !u!33 &33361489799324252
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559997188579376}
+  m_Mesh: {fileID: 4300006, guid: f05a45e7cb6bbff46b07e252397ecd10, type: 3}
+--- !u!64 &64360294977237066
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1559997188579376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300006, guid: f05a45e7cb6bbff46b07e252397ecd10, type: 3}
+--- !u!64 &64432870208095882
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204720515601236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: f05a45e7cb6bbff46b07e252397ecd10, type: 3}
+--- !u!114 &114074135970336196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1261432860291442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -234435149, guid: 359cbc00f34ff6146a158b02a341e456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: 
+  Minutes: 90
+  YieldNames:
+  - GEAR_ScrapMetal
+  - GEAR_Cloth
+  YieldCounts: 0300000003000000
+--- !u!114 &114552175528834078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1261432860291442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2064057923, guid: 359cbc00f34ff6146a158b02a341e456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: 
+  Minutes: 60
+  Condition: 30
+  RequiredTools:
+  - GEAR_SimpleTools
+  - GEAR_HookAndLine
+  - GEAR_SewingKit
+  MaterialNames:
+  - GEAR_ScrapMetal
+  - GEAR_Cloth
+  MaterialCounts: 0100000001000000
+--- !u!114 &114811379346791594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1261432860291442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1171469121, guid: 359cbc00f34ff6146a158b02a341e456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConsoleName: campingcot
+  Radial: 1
+  DisplayNameLocalizationId: GAMEPLAY_campingcot
+  DescriptionLocalizatonId: GAMEPLAY_campingcotdesc
+  InventoryCategory: 0
+  InventoryActionLocalizationId: 
+  PickUpAudio: 
+  StowAudio: Play_InventoryStow
+  PutBackAudio: 
+  WornOutAudio: 
+  WeightKG: 1
+  MaxHP: 1000
+  DaysToDecay: 1000
+  InitialCondition: 3
+  InspectOnPickup: 1
+  InspectDistance: 0.6
+  InspectScale: {x: 0.3, y: 0.3, z: 0.3}
+  InspectAngles: {x: 0, y: 0, z: 0}
+  InspectOffset: {x: 0, y: -0.1, z: 0}
+  InspectModel: {fileID: 1204720515601236}
+  NormalModel: {fileID: 1204720515601236}
+  ConditionGainPerHour: 0
+  AdditionalConditionGainPerHour: 0
+  WarmthBonusCelsius: 2
+  DegradePerHour: 1
+  BearAttackModifier: 0
+  WolfAttackModifier: 0
+  OpenAudio: 
+  CloseAudio: 
+  PackedMesh: {fileID: 1204720515601236}
+  UsableMesh: {fileID: 1559997188579376}
