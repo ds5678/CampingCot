@@ -1,0 +1,49 @@
+{
+    "ModBedComponent" : {
+                            "DisplayNameLocalizationId" : "GAMEPLAY_CampingCot",
+                            "DescriptionLocalizatonId" : "GAMEPLAY_CampingCotDescription",
+                            "InventoryActionLocalizationId" : "",
+                            "WeightKG": 1,
+                            "DaysToDecay" : 500,
+                            "MaxHP" : 500,
+                            "InitialCondition" : "Random",
+                            "InventoryCategory" : "Tool",
+                            "PickUpAudio" : "Play_SndInvClothHeavy",
+                            "PutBackAudio" : "Play_SndInvClothHeavy",
+                            "StowAudio" : "Play_InventoryStow",
+                            "WornOutAudio" : "",
+                            "InspectOnPickup" : true,
+                            "InspectDistance" : 2,
+                            "InspectAngles" : [-25, 38, 0],
+                            "InspectOffset" : [0, 0, 0],
+                            "InspectScale" :  [0.6, 0.6, 0.6],
+                            "NormalModel" : "CampingCot_packed",
+                            "InspectModel" : "CampingCot_sun",
+                            
+                            "ConditionGainPerHour" : 1,
+                            "AdditionalConditionGainPerHour" : 1,
+                            "WarmthBonusCelsius" : 3,
+                            "DegradePerHour" : 0.1,
+                            "BearAttackModifier" : 0,
+                            "WolfAttackModifier" : 0,
+                            "OpenAudio" : "PLAY_SNDGENSLEEPINGBAGOPEN",
+                            "CloseAudio" : "PLAY_SNDGENSLEEPINGBAGCLOSE",
+                            "PackedMesh" : "CampingCot_packed",
+                            "UsableMesh" : "CampingCotUsed"
+    },
+    "ModHarvestableComponent": {
+                                "Audio" : "Play_HarvestingMetal",
+                                "Minutes" : 45,
+                                "YieldCounts" : [2,2],
+                                "YieldNames" : ["GEAR_ScrapMetal","GEAR_Cloth"],
+                                "RequiredToolNames" : []
+                            },
+    "ModRepairableComponent" : {
+                                "Audio" : "Play_RepairingMetal",
+                                "Minutes" : 60,
+                                "Condition" : 30,
+                                "RequiredTools" : ["GEAR_SimpleTools","GEAR_HighQualityTools"],
+                                "MaterialNames" : ["GEAR_ScrapMetal","GEAR_Cloth"],
+                                "MaterialCounts" : [1,1]
+                            }
+}
